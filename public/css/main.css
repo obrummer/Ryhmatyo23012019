@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#messages{
+    width: 100%;
+    padding: 50px;
+    margin: 20px;
+    color:greenyellow;
+}
+textarea{
+    width: 100%;
+}
+
+footer{
+    background-color: greenyellow;
+}
+
+body nav{
+    background-color: yellow;
+}
+
+#messages {
+    display: block;
+    overflow: auto;
+    word-wrap: break-word;
+    line-height: 1.8em;
+    max-height: 18em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:greenyellow;
+  }
+
+  h1{
+      color: blue;
+  }

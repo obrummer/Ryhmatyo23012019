@@ -1,0 +1,17 @@
+{
+  "description": "Simple REST server for client side labs",
+  "repository": {},
+  "license": "ECL-2.0",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "morgan": "^1.9.1"
+  },
+  "scripts": {
+    "start": "nodemon restpalvelin.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
